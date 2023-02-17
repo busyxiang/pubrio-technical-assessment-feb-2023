@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #e8eef4;
+  border-radius: 3px;
+}
+
+.table-wrapper {
+  flex: 1;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.overflow-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  cursor: pointer;
+}
+
+.overflow-text:hover {
+  color: #0070ca;
+}
+
+.email-btn {
+  padding: 4px 8px;
+}
+
+.social-btn {
+  padding: 0;
+  width: unset !important;
+}
+
+.container img {
+  object-fit: contain;
+}

@@ -1,0 +1,121 @@
+.sidebar :global(.ant-input-affix-wrapper) {
+  height: 45px;
+  border-radius: 0;
+}
+
+.sidebar :global(.ant-layout-sider-children) {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar :global(.ant-collapse-header) {
+  background-color: white;
+}
+
+.sidebar :global(.ant-collapse-header-text) {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sidebar :global(.ant-collapse-header[aria-expanded="true"]) {
+  color: #1991eb;
+}
+
+.sidebar :global(.ant-collapse-header[aria-expanded="false"] .anticon-right) {
+  transform: rotate(-90deg);
+}
+
+.sidebar :global(.ant-collapse-content-box .ant-radio-group),
+.sidebar :global(.ant-collapse-content-box .ant-space) {
+  width: 100%;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 50px;
+  padding: 0 12px 0 17px;
+  border-bottom: 1px solid #e8eef4;
+}
+
+.title-container .title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #242d3e;
+}
+
+.load-txt {
+  color: #1991eb;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.save-txt {
+  color: #949fb1;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu-wrapper {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.footer-container {
+  padding: 10px 8px;
+}
+
+.external-icon {
+  margin-left: 0.5rem;
+}
+
+.radio-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #5d6a7e;
+  background-color: #f7f9fb;
+  border: 1px solid #d3dae3;
+}
+
+.radio-wrapper:has(:global(.ant-radio-wrapper-checked)) {
+  background-color: white;
+  border-color: #1991eb;
+}
+
+.radio-wrapper :global(.ant-radio-wrapper) {
+  width: 100%;
+}
+
+.info-container {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: #f7f9fb;
+}
+
+.info-container span {
+  font-size: 12px;
+}
+
+.simple-collapse-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-title-text {
+  color: #1991eb;
+  cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.tabs {
+  padding-left: 1rem;
+}
+
+.tabs :global(.ant-tabs-nav) {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+
+  height: 50px;
+  padding: 0 0.5rem;
+
+  background-color: white;
+  border-bottom: 1px solid #e8eef4;
+}
+
+.header :global(.ant-btn),
+.header :global(.ant-btn):hover {
+  border-color: transparent;
+}
+
+.header input {
+  min-width: 250px;
+}
+
+.header :global(.ant-input-prefix) {
+  margin-right: 10px;
+}
+
+.logo {
+  width: 25px;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+}
+
+.left :global(.ant-menu) {
+  flex: 1;
+}
